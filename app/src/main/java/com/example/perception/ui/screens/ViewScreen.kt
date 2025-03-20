@@ -25,12 +25,13 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
+import com.example.perception.ui.navigation.ARScreeen
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import java.net.URLEncoder
 import kotlin.random.Random
 //import com.example.perception.ui.navigation.ARScreen
-import com.example.perception.ui.navigation.ARScreeen
+//import com.example.perception.ui.navigation.ARScreeen
 import kotlinx.serialization.json.internal.encodeByWriter
 
 @OptIn(ExperimentalLayoutApi::class)

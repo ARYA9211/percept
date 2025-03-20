@@ -5,10 +5,10 @@ import kotlinx.serialization.Serializable
 // Sealed interface to group all navigation destinations
 sealed interface NavigationDestination
 
-@Serializable
-data object HomeScreen : NavigationDestination {
-    const val route = "home"
-}
+//@Serializable
+//data object HomeScreen : NavigationDestination {
+//    const val route = "home"
+//}
 
 @Serializable
 //data class ARScreen(val model:String) : NavigationDestination {
@@ -18,8 +18,8 @@ data class ARScreeen(val model:String) : NavigationDestination {
     }
 }
 
-@Serializable
-data object ViewScreen : NavigationDestination {
-    const val route = "view"
-}
+//@Serializable
+//data object ViewScreen : NavigationDestination {
+//    const val route = "view"
+//}
 

@@ -14,10 +14,10 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 //import com.example.perception.ui.navigation.ARScreen
-import com.example.perception.ui.navigation.ARScreeen
+//import com.example.perception.ui.navigation.ARScreeen
 //import com.example.perception.ui.navigation.HomeScreen
 import com.example.perception.ui.screens.NewHomeScreen
-import com.example.perception.ui.navigation.ViewScreen
+//import com.example.perception.ui.navigation.ViewScreen
 //import com.example.perception.ui.screens.ARScreen
 import com.example.perception.ui.screens.ARScreeen
 //import com.example.perception.ui.screens.HomeScreen

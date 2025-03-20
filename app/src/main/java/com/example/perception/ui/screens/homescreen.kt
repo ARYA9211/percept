@@ -13,7 +13,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 //import com.example.perception.ui.navigation.ARScreen
 import com.example.perception.ui.navigation.ARScreeen
-import com.example.perception.ui.navigation.ViewScreen
+//import com.example.perception.ui.navigation.ViewScreen
 
 @Composable
 
@@ -24,7 +24,8 @@ fun HomeScreen(navController: NavController) {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Button(
-            onClick = { navController.navigate(ViewScreen) },
+//            onClick = { navController.navigate(ViewScreen) },
+            onClick = { navController.navigate("view") },
             modifier = Modifier.padding(16.dp)
         ) {
             Text(text = "SELECT MODELS")
